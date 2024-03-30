@@ -1,0 +1,99 @@
+.loginScreen{
+    position: relative;
+    height: 100%;
+}
+
+.login_logo{
+    position: fixed;
+    left: 0;
+
+    width: 100px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.login_button{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+
+    color: white;
+    background-color: red;
+    border-radius: 10%;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.loginScreen{
+    position: relative;
+    height: 100%;
+    background: url("https://img.helpnetsecurity.com/wp-content/uploads/2020/03/23143409/netflix-collection.jpg")
+    center no-repeat;
+    background-size: cover;
+}
+
+
+.loginScreen_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%
+    );
+}
+
+/* .login_body{
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+} */
+
+.login_body {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    
+}
+.login_input > form > input{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    outline-width: 0;
+    height: 41.47px;
+    width:30%;
+    border: none;
+    max-width: 600px;
+}
+.login_input_button{
+    padding-top:9.4px;
+    padding-bottom: 9.4px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 1rem;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+
+
+
+.login_body >h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
